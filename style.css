@@ -13,6 +13,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     background: #e3f2fd;
+    background: url(https://i.pinimg.com/originals/eb/28/81/eb288176775146633e194c532adcdc54.gif);
 }
 
 .wrapper{
@@ -22,9 +23,9 @@ body{
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    background: #293447;
+    background: #f688f3;
     border-radius: 5px;
-    box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+    box-shadow: 0 20px 40px rgb(104, 78, 103);
 }
 
 .game-details{
@@ -40,7 +41,7 @@ body{
     height: 100%;
     width: 100%;
     display: grid;
-    background: #212837;
+    background: #fcc6fce1;
     grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 
