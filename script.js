@@ -32,6 +32,7 @@ let score = 0;
 
 // tenta recuperar o valor associado a chave "high-score do armazenamento local do navegador"
 let highScore = localStorage.getItem("high-score") || 0;
+highScoreElement.innerText = `High Score: ${highScore}`;
 /* se o localStorage retornar NULL (caso ele não exista),
  a variavel highscore sera definida como 0*/
 
